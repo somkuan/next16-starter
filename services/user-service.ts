@@ -1,7 +1,7 @@
 import { User } from "@/lib/types";
 import { cacheLife } from "next/cache";
 
-const API_URL = 'https://690da16aa6d92d83e8525a6e.mockapi.io/api/v1/user';
+const API_URL = 'https://69608824e7aa517cb7964c97.mockapi.io/api/v1/user';
 
 export async function getUsers(): Promise<User[]> {
   'use cache'

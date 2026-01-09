@@ -1,7 +1,7 @@
 export default async function UserPage() {
 
   const userResponse = await fetch(
-    "https://690da16aa6d92d83e8525a6e.mockapi.io/api/v1/user"
+    "https://69608824e7aa517cb7964c97.mockapi.io/api/v1/user"
   );
   const user = (await userResponse.json()) as { id: number; name: string; bio: string }[]
 

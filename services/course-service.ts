@@ -1,6 +1,6 @@
 import { Course } from "@/lib/types";
 
-const API_URL = 'https://690da16aa6d92d83e8525a6e.mockapi.io/api/v1/course';
+const API_URL = 'https://69608824e7aa517cb7964c97.mockapi.io/api/v1/course';
 
 export async function getCourses(): Promise<Course[]> {
   try {
